@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/Sidebar.scss";
+import "../assets/styles/Home.css"
 import logoImage from "../assets/images/gallery.svg";
 import profileImage from "../assets/images/Frame.svg";
 import dashboardIcon from "../assets/images/category-2.svg";
@@ -8,9 +9,9 @@ import { NavLink } from "react-router-dom";
 function Sidebar() {
   return (
     <>
-      <main id="sidebar-page">
+      <main id="sidebar-page" className="Sidebar">
         <div className="body-background">
-          <div className="header">
+
             <div className="sidebar">
               <div className="d-flex align-items-center">
                 <div className=" box-gray mb-3">
@@ -44,7 +45,7 @@ function Sidebar() {
               </div>
             </div>
           </div>
-        </div>
+ 
       </main>
     </>
   );
