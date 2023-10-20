@@ -1,0 +1,19 @@
+#all-expenses {
+    overflow-x: hidden;
+  
+    .page-content {
+      position: absolute;
+      background-color: white;
+      width: 604px;
+      height: 320px;
+      top: 40px;
+      left: 312px;   
+      transition: all 0.5s ease;
+      display: flex;
+      flex-direction: column;
+      border-radius: 12px;
+      padding: 20px;
+      gap: 16px;
+  
+    }
+}
