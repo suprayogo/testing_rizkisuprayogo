@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/Sidebar.scss";
-import "../assets/styles/Home.css"
+import "../assets/styles/Home.cs"
 import logoImage from "../assets/images/gallery.svg";
 import profileImage from "../assets/images/Frame.svg";
 import dashboardIcon from "../assets/images/category-2.svg";
