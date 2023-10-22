@@ -2,6 +2,10 @@
 
 ## Available Scripts
 
+first clone the repository in the terminal or command prompt on your computer:
+### `git clone https://github.com/suprayogo/testing_rizkisuprayogo`
+
+
 In the project directory, you can run:
 ### `npm instal`
 ### `npm start`
