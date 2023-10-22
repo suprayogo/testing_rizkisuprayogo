@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/styles/Home.css"
 import Sidebar from "../components/Sidebar";
 import AllExpenses from "../components/AllExpenses";
 import QuickInvoice from "../components/QuickInvoice";
