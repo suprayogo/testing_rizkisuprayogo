@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+);
+$font-family: 'Montserrat';
+
+
+#my-card {
+    overflow-x: hidden;
+
+    .page-content {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        width: 410px;
+        height: 900px;
+        top: 40px;
+        left: 940px;
+        transition: all 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        padding: 15px;
+        gap: 24px;
+        z-index: 1;
+
+    }
+
+    .page-content h4 {
+        font-size: 20px;
+        color: #064061;
+        font-family: $font-family ;
+        font-weight: 600;
+
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .carousel-indicators {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        top: 220px;
+        margin: 0;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        border: 2px solid #E8E8E8;
+        background-color: #E8E8E8;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .indicator.active {
+        background-color: #4EB7F2;
+        width: 32px;
+        height: 10px;
+        border-radius: 12px;
+        border: 2px solid #4EB7F2;
+    }
+
+
+    .carousel-content {
+        width: 356px;
+        height: 190px;
+        background-color: #4EB7F2;
+        border-radius: 12px;
+    }
+
+    .carousel-content img {
+        width: 356px;
+        height: 190px;
+        z-index: 1;
+    }
+
+    .carousel-content .frame-name-card {
+        position: absolute;
+        z-index: 1;
+        background-color: transparent;
+        text-align: left;
+        top: 20px;
+        left: 25px;
+
+    }
+
+    .frame-name-card h6 {
+        color: white;
+        font-family: $font-family;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .frame-name-card h4 {
+        color: white;
+        font-family: $font-family;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .image-logo {
+        position: absolute;
+        background-color: transparent;
+        background: transparent;
+        top: 30px;
+        right: 0;
+        margin: 0px 40px;
+    }
+
+    .image-logo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-content .frame-number-card {
+        position: absolute;
+        z-index: 1;
+        background-color: transparent;
+        text-align: left;
+        top: 127px;
+        left: 145px;
+    }
+
+    .frame-number-card h2{
+        color: white;
+        font-family: $font-family;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .frame-date-cvv {
+        color: white;
+        font-family: $font-family;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: right;
+    }
+
+    .custom-border {
+        border-bottom: 1px solid #F1F1F1;
+      }
+
+
+.container-fluid .flex-container h6{
+    font-family: $font-family;
+    font-size: 18px;
+    font-weight: 600;
+    color: #064061
+}
+
+.container-fluid .flex-container p{
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4EB7F2
+}
+.frame-history-money{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: $font-family;
+}
+
+.frame-history-money p{
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+  
+  .credit-money {
+    width: 100%;
+    height: 78px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 14px;
+    gap: 22px;
+    font-family: $font-family;
+  }
+
+  .credit-date{
+    text-align: left;
+   
+  }
+
+  .credit-date h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #064061;
+  }
+  
+  
+  .credit-date-span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAAA;
+    
+  }
+
+  .credit-money-span{
+    color: #F3735E;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+
+//   
+
+.debit-money {
+    width: 100%;
+    height: 78px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 14px;
+    gap: 22px;
+    font-family: $font-family;
+  }
+
+  .debit-date{
+    text-align: left;
+   
+  }
+
+  .debit-date h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #064061;
+  }
+  
+  
+  .debit-date-span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAAA;
+    
+  }
+
+  .debit-money-span{
+    color: #7DD97B;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+}
