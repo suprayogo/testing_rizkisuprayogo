@@ -22,7 +22,7 @@ function Sidebar() {
               <div className="user-profile d-flex">
                 <img src={profileImage} alt="Profile" />
 
-                <div className="name-profile ms-2">
+                <div className=" ms-2">
                   <h6>Lekan Okeowo</h6>
                   <p>demo@gmail.com</p>
                 </div>
